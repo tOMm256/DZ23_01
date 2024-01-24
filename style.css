@@ -3,26 +3,10 @@
     height: 100px;
 }
 
-.div1{
-    display: none;
-}
-
-.div1.active{
-    display: block;
-}
-
 
 .btn2{
     width: 100px;
     height: 100px;
-}
-
-.p2{
-    display: none;
-}
-
-.p2.active{
-    display: block;
 }
 
 
@@ -31,40 +15,16 @@
     height: 100px;
 }
 
-.img3{
-    display: none;
-}
-
-.img3.active{
-    display: block;
-}
-
 
 .btn4{
     width: 100px;
     height: 100px;
 }
 
-.ul4{
-    display: none;
-}
-
-.ul4.active{
-    display: block;
-}
-
 
 .btn5{
     width: 100px;
     height: 100px;
-}
-
-.li5{
-    display: none;
-}
-
-.li5.active{
-    display: block;
 }
 
 
@@ -91,24 +51,8 @@
     height: 100px;
 }
 
-.h19{
-    display: none;
-}
-
-.h19.active{
-    display: block;
-}
-
 
 .btn10{
     width: 100px;
     height: 100px;
-}
-
-.span10{
-    display: none;
-}
-
-.span10.active{
-    display: block;
 }
