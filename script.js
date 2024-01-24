@@ -2,9 +2,9 @@
 const btn1 = document.getElementById('btn1')
 
 btn1.addEventListener('click', function func1() {
-    let div1 = document.createElement("div");
-    div.innerHTML = "Это div1";
-    document.getElementById("div").appendChild(div1);
+  let div = document.createElement("div");
+  div.innerHTML = "Это div1";
+  document.getElementById("div1").appendChild(div);
 })
 
 
