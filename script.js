@@ -23,7 +23,7 @@ const btn3 = document.getElementById('btn3')
 
 btn3.addEventListener('click', function func3() {
     let img3 = document.createElement("img");
-    img3.innerHTML = "Это img3";
+    img3.alt = "Это img3";
     document.getElementById("div3").appendChild(img3);
 })
 
