@@ -1,50 +1,50 @@
 // Задача 1: Создайте кнопку с id btn1, которая при нажатии вызывает функцию func1. Функция func1 должна создать новый элемент div с текстом “Это div1” и добавить его в div1.
 const btn1 = document.getElementById('btn1')
-const div1 = document.getElementById('div1')
 
 btn1.addEventListener('click', function func1() {
-    div1.classList.toggle('active')
-    console.log('click')
+    let div1 = document.createElement("div");
+    div.innerHTML = "Это div1";
+    document.getElementById("div").appendChild(div1);
 })
 
 
 // Задача 2: Создайте кнопку с id btn2, которая при нажатии вызывает функцию func2. Функция func2 должна создать новый элемент p с текстом “Это p2” и добавить его в div2.
 const btn2 = document.getElementById('btn2')
-const p2 = document.getElementById('p2')
 
 btn2.addEventListener('click', function func2() {
-    p2.classList.toggle('active')
-    console.log(click)
+    let p2 = document.createElement("p");
+    p2.innerHTML = "Это p2";
+    document.getElementById("div2").appendChild(p2);
 })
 
 
 // Задача 3: Создайте кнопку с id btn3, которая при нажатии вызывает функцию func3. Функция func3 должна создать новый элемент img с альтернативным текстом “Это img3” и добавить его в div3.
 const btn3 = document.getElementById('btn3')
-const img3 = document.getElementById('img3')
 
 btn3.addEventListener('click', function func3() {
-    img3.classList.toggle('active')
-    console.log(click)
+    let img3 = document.createElement("img");
+    img3.innerHTML = "Это img3";
+    document.getElementById("div3").appendChild(img3);
 })
 
 
 // Задача 4: Создайте кнопку с id btn4, которая при нажатии вызывает функцию func4. Функция func4 должна создать новый элемент ul с текстом “Это ul4” и добавить его в div4.
 const btn4 = document.getElementById('btn4')
-const ul4 = document.getElementById('ul4')
 
 btn4.addEventListener('click', function func4() {
-    ul4.classList.toggle('active')
-    console.log(click)
+    let ul4 = document.createElement("ul");
+    table.innerHTML = "Это ul4";
+    document.getElementById("div4").appendChild(ul4);
 })
 
 
 // Задача 5: Создайте кнопку с id btn5, которая при нажатии вызывает функцию func5. Функция func5 должна создать новый элемент li с текстом “Это li5” и добавить его в div5.
 const btn5 = document.getElementById('btn5')
-const li5 = document.getElementById('li5')
 
 btn5.addEventListener('click', function func5() {
-    li5.classList.toggle('active')
-    console.log(click)
+    let li5 = document.createElement("li");
+    table.innerHTML = "Это li5";
+    document.getElementById("div5").appendChild(li5);
 })
 
 
