@@ -33,7 +33,7 @@ const btn4 = document.getElementById('btn4')
 
 btn4.addEventListener('click', function func4() {
     let ul4 = document.createElement("ul");
-    table.innerHTML = "Это ul4";
+    ul4.innerHTML = "Это ul4";
     document.getElementById("div4").appendChild(ul4);
 })
 
@@ -43,7 +43,7 @@ const btn5 = document.getElementById('btn5')
 
 btn5.addEventListener('click', function func5() {
     let li5 = document.createElement("li");
-    table.innerHTML = "Это li5";
+    li5.innerHTML = "Это li5";
     document.getElementById("div5").appendChild(li5);
 })
 
@@ -80,19 +80,19 @@ btn8.addEventListener('click', function func8() {
 
 // Задача 9: Создайте кнопку с id btn9, которая при нажатии вызывает функцию func9. Функция func9 должна создать новый элемент h1 с текстом “Это h19” и добавить его в div9.
 const btn9 = document.getElementById('btn9')
-const h19 = document.getElementById('h19')
 
 btn9.addEventListener('click', function func9() {
-    h19.classList.toggle('active')
-    console.log(click)
+    let h19 = document.createElement("h1");
+    h19.innerHTML = "Это h19";
+    document.getElementById("div9").appendChild(h19);
 })
 
 
 // Задача 10: Создайте кнопку с id btn10, которая при нажатии вызывает функцию func10. Функция func10 должна создать новый элемент span с текстом “Это span10” и добавить его в div10. Результат залить на github”
 const btn10 = document.getElementById('btn10')
-const span10 = document.getElementById('span10')
 
 btn10.addEventListener('click', function func10() {
-    span10.classList.toggle('active')
-    console.log(click)
+    let span10 = document.createElement("span");
+    span10.innerHTML = "Это span10";
+    document.getElementById("div10").appendChild(span10);
 })
